@@ -35,7 +35,7 @@ test('MCP HTTP initialization, discovery, call and error result', async () => {
   try {
     await client.connect(new StreamableHTTPClientTransport(new URL(endpoint)));
     const { tools } = await client.listTools();
-    assert.equal(tools.length, 1);
+    assert.equal(tools.length, 2);
     assert.equal(tools[0].name, 'read_x_post');
     assert.equal(tools[0].annotations.readOnlyHint, true);
     const result = await client.callTool({ name: 'read_x_post', arguments: { url: '123' } });

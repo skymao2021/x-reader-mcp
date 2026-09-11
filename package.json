@@ -1,6 +1,6 @@
 {
   "name": "x-reader-mcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "engines": {
@@ -13,9 +13,12 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",
+    "defuddle": "0.19.2",
+    "ipaddr.js": "2.5.0",
+    "linkedom": "0.18.13",
     "zod": "^4.6.2"
   },
-  "description": "Read-only MCP server for public X/Twitter posts via FxTwitter",
+  "description": "Read-only MCP server for public web articles, WeChat and X/Twitter",
   "license": "MIT",
   "repository": {
     "type": "git",
