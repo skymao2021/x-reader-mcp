@@ -1,0 +1,24 @@
+{
+  "name": "x-reader-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "test:live": "node scripts/live.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.6.2"
+  },
+  "description": "Read-only MCP server for public X/Twitter posts via FxTwitter",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skymao2021/x-reader-mcp.git"
+  }
+}
