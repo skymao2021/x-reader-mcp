@@ -1,4 +1,4 @@
-# X Reader MCP
+# X Reader MCP · 公众号、网页与 X 内容读取
 
 A read-only MCP server for public web articles, WeChat and X/Twitter, powered by Defuddle and FxTwitter.
 
